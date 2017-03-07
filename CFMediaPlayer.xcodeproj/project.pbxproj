@@ -83,6 +83,7 @@
 		8A1FDA2C1E6E63B4003C3B5E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1FDA2B1E6E63B4003C3B5E /* libiconv.tbd */; };
 		8A1FDA2E1E6E63CB003C3B5E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1FDA2D1E6E63CB003C3B5E /* CoreTelephony.framework */; };
 		8A1FDA301E6E63D6003C3B5E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1FDA2F1E6E63D6003C3B5E /* SystemConfiguration.framework */; };
+		8AE674E51E6ECA9700AC86ED /* TXRTMPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AE674E41E6ECA9700AC86ED /* TXRTMPSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,6 +173,7 @@
 		8A1FDA2B1E6E63B4003C3B5E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		8A1FDA2D1E6E63CB003C3B5E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		8A1FDA2F1E6E63D6003C3B5E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8AE674E41E6ECA9700AC86ED /* TXRTMPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TXRTMPSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				8A1FDA261E6E6362003C3B5E /* CoreGraphics.framework in Frameworks */,
 				8A1FDA241E6E6358003C3B5E /* AVFoundation.framework in Frameworks */,
 				8A1FDA221E6E6345003C3B5E /* libz.tbd in Frameworks */,
+				8AE674E51E6ECA9700AC86ED /* TXRTMPSDK.framework in Frameworks */,
 				8A1FDA201E6E6327003C3B5E /* libstdc++.tbd in Frameworks */,
 				8A1FDA1E1E6E6317003C3B5E /* libresolv.tbd in Frameworks */,
 			);
@@ -240,6 +243,7 @@
 		8A1FD9891E6E5303003C3B5E /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				8AE674E41E6ECA9700AC86ED /* TXRTMPSDK.framework */,
 				8A1FDA181E6E5AE2003C3B5E /* CFMediaPlayer.pch */,
 				8A1FD9A51E6E569F003C3B5E /* resource */,
 				8A1FD99D1E6E53E5003C3B5E /* Category */,
